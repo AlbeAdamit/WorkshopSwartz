@@ -21,7 +21,15 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-.githubImg {
-    width: 20%;
-    height: 10%;
+
+.icons-social a{
+    align-self: center;
+    color: dodgerblue;
+}
+.icons-social i:hover{     
+	color: yellow;
+	transition: transform .2s;
+	-ms-transform:scale(1.25); 
+	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
+	transform: scale(1.25); 
 }
