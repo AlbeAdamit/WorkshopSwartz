@@ -17,3 +17,11 @@ h2 {
     text-align: center;
     color: white;
 }
+.github {
+    display: flex;
+    flex-direction: column;
+}
+.githubImg {
+    width: 20%;
+    height: 10%;
+}
