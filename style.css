@@ -15,5 +15,21 @@ li {
 }
 h2 {
     text-align: center;
-    color: rgba(13, 119, 241, 0.952);
+    color: white;
+}
+.github {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-social a{
+    align-self: center;
+    color: dodgerblue;
+}
+.icons-social i:hover{     
+	color: yellow;
+	transition: transform .2s;
+	-ms-transform:scale(1.25); 
+	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
+	transform: scale(1.25); 
 }
