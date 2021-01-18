@@ -18,6 +18,11 @@ Bracket Pair Colorizer 2
 Color Picker
 File-icons
 Live Server
+Emmet
+Git Graph
+Live Share
+NPM
+
 
 ### By ?
 
