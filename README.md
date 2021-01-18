@@ -21,10 +21,8 @@ Live Server
 Emmet
 Git Graph
 Live Share
-NPM
 Git Lens
 Git Graph
-
 ### By ?
 
 Simon Doneux
