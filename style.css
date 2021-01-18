@@ -1,3 +1,6 @@
+html{
+    height: 110%;
+}
 body{
     background-image: url(./images/mountainPic.jpg);
     background-size: cover;
@@ -11,9 +14,47 @@ p {
     text-align: center;
 }
 li {
-    padding-left: 40%;
+    padding-left: 35%;
 }
 h2 {
     text-align: center;
-    color: rgba(13, 119, 241, 0.952);
+    color: white;
+}
+blockquote {
+    text-align: center;
+}
+img{
+    width: 25%;
+    padding-left: 35%;
+}
+.github {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-social a{
+    color: dodgerblue;
+    padding-left: 50%;
+}
+.icons-social i:hover{     
+	color: yellow;
+	transition: transform .2s;
+	-ms-transform:scale(1.25); 
+	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
+	transform: scale(1.25); 
+}
+.extension a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: navy
+}
+.extension a:hover {
+    color: purple;
+    transition: transform .2s;
+	-ms-transform:scale(1.50); 
+	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
+    transform: scale(1.50);
+    
 }
