@@ -1,3 +1,6 @@
+html{
+    height: 110%;
+}
 body{
     background-image: url(./images/mountainPic.jpg);
     background-size: cover;
@@ -20,6 +23,10 @@ h2 {
 blockquote {
     text-align: center;
 }
+img{
+    width: 25%;
+    padding-left: 35%;
+}
 .github {
     display: flex;
     flex-direction: column;
@@ -35,4 +42,19 @@ blockquote {
 	-ms-transform:scale(1.25); 
 	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
 	transform: scale(1.25); 
+}
+.extension a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: navy
+}
+.extension a:hover {
+    color: purple;
+    transition: transform .2s;
+	-ms-transform:scale(1.50); 
+	/* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */
+    transform: scale(1.50);
+    
 }
