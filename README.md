@@ -21,9 +21,10 @@ Live Server
 Emmet
 Git Graph
 Live Share
-Git Lens
-Git Graph
 ### By ?
 
 Simon Doneux
 Alexandre Albelice
+
+### Github Page
+https://albeadamit.github.io/WorkshopSwartz/
